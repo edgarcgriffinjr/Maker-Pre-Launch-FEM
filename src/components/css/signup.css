@@ -189,10 +189,11 @@
 
     .signup-form {
         width: 85%;
+        height: 7.5rem;
         display: flex;
         flex-direction: column;
-        gap: 1.5rem;
         align-items: center;
+        justify-content: space-between;
         background-color: transparent;
     }
 
