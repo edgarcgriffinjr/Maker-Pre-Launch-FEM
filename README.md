@@ -1,13 +1,12 @@
-## Pre Launch Landing Page 
+# Pre Launch Landing Page #
 
-#colors 
+This is a challenge from the Frontend Mentor Website. <https://www.frontendmentor.io/challenges/maker-prelaunch-landing-page-WVZIJtKLd>
 
-mint: #3EE9E5
-blue: #093F68
-white: #FFFFFF
-dark-blue: #080C20
-greyish: #777F98
-pink: #FF2965
+## Tech Used ##
+* `React`
+* `CSS`
+* `HTML`
 
-#font 
-Manrope Font Family
+
+## Hosted At ##
+<https://maker-pre-launch-fem.vercel.app/>
