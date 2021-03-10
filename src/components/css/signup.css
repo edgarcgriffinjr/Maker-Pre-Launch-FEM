@@ -1,0 +1,247 @@
+@media (min-width: 68.75rem) {
+    .signup {
+        background: url('../assets/bg-footer-squiggle.svg') no-repeat center center;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 14.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8rem;
+    }
+
+    .signup-header {
+        padding-bottom: 3rem;
+        background-color: transparent;
+    }
+
+    .signup-header h1 {
+        background-color: transparent;
+        font-size: var(--fs-medium-small);
+    }
+
+    .signup-form {
+        width: 29.75rem;
+        height: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    .signup-form input {
+        width: 19rem;
+        height: 100%;
+        background-color: var(--blue);
+        border: none;
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .signup-form input:invalid {
+        width: 19rem;
+        height: 100%;
+        background-color: var(--blue);
+        border: 2px solid var(--pink);
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .signup-form button {
+        width: 8.75rem;
+        height: 100%;
+        background-color: var(--mint);
+        border: none;
+        color: var(--dark-blue);
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: center;
+    }
+
+    .signup-form button:hover {
+        width: 8.75rem;
+        height: 100%;
+        background-color: transparent;
+        border: 2px solid var(--mint);
+        color: var(--white);
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 68.75rem) and (min-width: 590px) {
+    .signup {
+        background: url('../assets/bg-footer-squiggle.svg') no-repeat center center;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 14.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8rem;
+    }
+
+    .signup-header {
+        padding-bottom: 3rem;
+        background-color: transparent;
+    }
+
+    .signup-header h1 {
+        background-color: transparent;
+        font-size: var(--fs-middle);
+    }
+
+    .signup-form {
+        width: 29.75rem;
+        height: 3rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    .signup-form input {
+        width: 19rem;
+        height: 100%;
+        background-color: var(--blue);
+        border: none;
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .signup-form input:invalid {
+        width: 19rem;
+        height: 100%;
+        background-color: var(--blue);
+        border: 2px solid var(--pink);
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .signup-form button {
+        width: 8.75rem;
+        height: 100%;
+        background-color: var(--mint);
+        border: none;
+        color: var(--dark-blue);
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: center;
+    }
+
+    .signup-form button:hover {
+        width: 8.75rem;
+        height: 100%;
+        background-color: transparent;
+        border: 2px solid var(--mint);
+        color: var(--white);
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 590px) {
+    .signup {
+        background: url('../assets/bg-footer-squiggle.svg') no-repeat center center;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 14.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8rem;
+    }
+
+    .signup-header {
+        padding-bottom: 3rem;
+        background-color: transparent;
+    }
+
+    .signup-header h1 {
+        background-color: transparent;
+        font-size: var(--fs-middle);
+    }
+
+    .signup-form {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+        background-color: transparent;
+    }
+
+    .signup-form input {
+        width: 100%;
+        height: 3rem;
+        background-color: var(--blue);
+        border: none;
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .signup-form input:invalid {
+        width: 19rem;
+        height: 100%;
+        background-color: var(--blue);
+        border: 2px solid var(--pink);
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+    .signup-form button {
+        width: 100%;
+        height: 3rem;
+        background-color: var(--mint);
+        border: none;
+        color: var(--dark-blue);
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: center;
+    }
+
+    .signup-form button:hover {
+        width: 8.75rem;
+        height: 100%;
+        background-color: transparent;
+        border: 2px solid var(--mint);
+        color: var(--white);
+        border-radius: 1.5rem;
+        font-size: var(--fs-text);
+        line-height: var(--lh-small-text);
+        text-align: center;
+        cursor: pointer;
+    }
+}

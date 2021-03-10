@@ -1,0 +1,18 @@
+@media (min-width: 590px) {
+    .header {
+        height: 13.3125rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 590px) {
+    .header {
+        height: 13.3125rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
