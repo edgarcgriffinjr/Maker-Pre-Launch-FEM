@@ -166,8 +166,6 @@
 
 @media (max-width: 590px) {
     .signup {
-        background: url('../assets/bg-footer-squiggle.svg') no-repeat center center;
-        background-size: 100% 100%;
         width: 100%;
         height: 14.25rem;
         display: flex;
@@ -178,8 +176,15 @@
     }
 
     .signup-header {
-        padding-bottom: 3rem;
+        margin-bottom: 3rem;
         background-color: transparent;
+        height: 5rem;
+        background: url('../assets/bg-footer-squiggle.svg') no-repeat center center;
+        background-size: 100% 100%;
+        width: 100%;;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .signup-header h1 {
