@@ -10,4 +10,4 @@ This is a challenge from the Frontend Mentor Website.
 
 
 ## Hosted At ##
-<https://maker-pre-launch-fem.vercel.app/>
+<https://landing-fem-edgar.vercel.app/>
